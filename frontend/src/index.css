@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* React Select Styles */
+.react-select-container .react-select__control {
+  border-radius: 0.5rem;
+  border-color: #d1d5db;
+  min-height: 42px;
+}
+
+.react-select-container .react-select__control:hover {
+  border-color: #9ca3af;
+}
+
+.react-select-container .react-select__control--is-focused {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 1px #3b82f6;
+}
+
+.react-select-container .react-select__menu {
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.react-select-container .react-select__option {
+  cursor: pointer;
+}
+
+.react-select-container .react-select__option--is-focused {
+  background-color: #f3f4f6;
+}
+
+.react-select-container .react-select__option--is-selected {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.react-select-container .react-select__option--is-selected:hover {
+  background-color: #2563eb;
+}
+
+/* Custom animations for loader */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out;
+}
+
+/* Custom Scrollbar Styles for Sidebar */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: #111827; /* gray-900 */
+  border-radius: 4px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: #374151; /* gray-700 */
+  border-radius: 4px;
+  border: 1px solid #111827;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  background: #4b5563; /* gray-600 */
+}
+
+/* Firefox scrollbar styles */
+.sidebar-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #374151 #111827;
+}
+
