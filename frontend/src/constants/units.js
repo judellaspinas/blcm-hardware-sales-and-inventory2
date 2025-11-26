@@ -9,21 +9,21 @@ export const STANDARD_UNITS = [
   { value: 'Gallon', label: 'Gallon (gal)', abbreviation: 'gal' },
   { value: 'Pound', label: 'Pound (lb)', abbreviation: 'lb' },
   { value: 'Ounce', label: 'Ounce (oz)', abbreviation: 'oz' },
-  { value: 'Foot', label: 'Foot (ft)', abbreviation: 'ft' },
+  { value: 'Feet', label: 'Feet (ft)', abbreviation: 'ft' },
   { value: 'Inch', label: 'Inch (in)', abbreviation: 'in' },
 ];
 
 export const SUB_CATEGORIES = [
-  { value: 'Per Bottle', label: 'Per Bottle' },
-  { value: 'Per Piece', label: 'Per Piece' },
-  { value: 'Per Box', label: 'Per Box' },
-  { value: 'Per Gallon', label: 'Per Gallon' },
-  { value: 'Per Sachet/Pouch', label: 'Per Sachet/Pouch' },
-  { value: 'Per Pack', label: 'Per Pack' },
-  { value: 'Per Carton', label: 'Per Carton' },
-  { value: 'Per Bag', label: 'Per Bag' },
-  { value: 'Per Can', label: 'Per Can' },
-  { value: 'Per Tube', label: 'Per Tube' },
+  { value: 'Bottle', label: 'Bottle' },
+  { value: 'Piece', label: 'Piece' },
+  { value: 'Box', label: 'Box' },
+  { value: 'Gallon', label: 'Gallon' },
+  { value: 'Sachet/Pouch', label: 'Sachet/Pouch' },
+  { value: 'Pack', label: 'Pack' },
+  { value: 'Carton', label: 'Carton' },
+  { value: 'Bag', label: 'Bag' },
+  { value: 'Can', label: 'Can' },
+  { value: 'Tube', label: 'Tube' },
 ];
 
 /**
